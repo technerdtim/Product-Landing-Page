@@ -1,0 +1,55 @@
+body{
+    background-color: indianred;
+}
+
+#header-img{
+    width: 375px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.flex-container > div{
+    background-color: cornsilk;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+
+.nav-link{
+  padding: 20px;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+.video{
+  padding-bottom: 30px;
+}
+
+section{
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: aqua;
+  color: brown;
+  padding: 1em;
+}
+
+.hondapic{
+   width: 25px;
+   text-align: left;
+}
+
+
